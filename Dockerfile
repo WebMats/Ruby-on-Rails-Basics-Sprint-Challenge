@@ -6,7 +6,7 @@ WORKDIR /usr/app
 
 COPY ./Awesome-Blog/Gemfile  ./
 COPY ./Awesome-Blog/Gemfile.lock ./
-COPY ./Awesome-Blog-Gem ./Awesome-Blog-Gem
+COPY ./Awesome-Blog-Gem/ ../Awesome-Blog-Gem/
 
 RUN bundle install
 
