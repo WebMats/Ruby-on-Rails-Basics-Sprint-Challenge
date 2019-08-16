@@ -1,5 +1,5 @@
 PATH
-  remote: Awesome-Blog-Gem/publishable
+  remote: ../Awesome-Blog-Gem/publishable
   specs:
     publishable (0.1.0)
 
